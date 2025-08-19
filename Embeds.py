@@ -49,7 +49,7 @@ def embed_attendees(attendees_nick):
         title=f"Attendees({len(attendees_nick)}) :raised_hand:",
         color=0xff9500,
         description=members_str)
-    embed.set_footer(text=f"{date.today().strftime("%Y-%m-%d")}")
+    embed.set_footer(text=f"{date.today().strftime('%Y-%m-%d')}")
     attendees_nick = []
     return embed
 
